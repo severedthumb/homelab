@@ -3,43 +3,59 @@
     <head>
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='preconnect' href='https://fonts.googleapis.com'>
+        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin=''>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Pirata+One&amp;display=swap'>
         <link rel='stylesheet' href='styles.css'>
         <script src='script.js' defer></script>
         <title>Jeremy's Homelab</title>
     </head>
     <body>
         <header>
-            <h1>Severed Thumb Homelab</h1>
+            <h1>the laboratory</h1>
         </header>
 
         <main>
-            <h2>Purpose</h2>
-            <p>A brief explanation of this project will go here.</p>
-            <p>My homelab consists, for the the moment, of four Raspberry Pis, plugged into a switch. Each serves a different function in this tiny LAN.</p>
+            <h2>introduction</h2>
+            <p>Hi, I'm Jeremy. I'm an IT person with an interest in networking.</p>
+            <p>To get some hands-on experience building, configuring, and maintaining a network, I'm building a small, inexpensive homelab.</p>
+            <p>Currently the lab consists of four Raspberry Pis and a switch. Each Pi serves a different function in the LAN.</p>
 
-            <h3>jeremy01</h3>
-            <p>jeremy01 is a Raspberry Pi 4 Model B with 1 GB of RAM.</p>
-            <p>For now, jeremy01 does nothing.</p>
+            <h2>equipment</h2>
+
+            <h3><img src='caret.svg' class='caret'>jeremy01</h3>
+            <div class='text-box'>
+                <p>jeremy01 is a Raspberry Pi 4 Model B with 1 GB of RAM.</p>
+                <p>For now, jeremy01 does nothing.</p>
+            </div>
             
-            <h3>jeremy02</h3>
-            <p>jeremy02 a Raspberry Pi 4 Model B with 1 GB of RAM.</p>
-            <p>jeremy02 serves as the database server for the network. It is running MariaDB.</p>
+            <h3><img src='caret.svg' class='caret'>jeremy02</h3>
+            <div class='text-box'>
+                <p>jeremy02 a Raspberry Pi 4 Model B with 1 GB of RAM.</p>
+                <p>jeremy02 serves as the database server for the network. It is running MariaDB.</p>
+            </div>
             
-            <h3>jeremy03</h3>
-            <p>jeremy03 is a Raspberry Pi 4 Model B with 1 GB of RAM.</p>
-            <p>jeremy03 serves as the DNS server for the network. It is running dnsmasq.</p>
+            <h3><img src='caret.svg' class='caret'>jeremy03</h3>
+            <div class='text-box'>
+                <p>jeremy03 is a Raspberry Pi 4 Model B with 1 GB of RAM.</p>
+                <p>jeremy03 serves as the DNS server for the network. It is running dnsmasq.</p>
+            </div>
 
-            <h3>jeremy04</h3>
-            <p>jeremy04 a Raspberry Pi 4 Model B with 8 GB of RAM.</p>
-            <p>jeremy04 serves as the web server for the network. It is running a simple web server built with Node.js. It is also running Apache for testing purposes.</p>
+            <h3><img src='caret.svg' class='caret'>jeremy04</h3>
+            <div class='text-box'>
+                <p>jeremy04 a Raspberry Pi 4 Model B with 8 GB of RAM.</p>
+                <p>jeremy04 serves as the web server for the network. It is running a simple web server built with Node.js. It is also running Apache for testing purposes.</p>
+            </div>
 
-            <h3>Other equipment</h3>
-            <p>All four of the Raspberry Pis are plugged into a Ubiquiti switch.</p>
-            <p>Usually just one Pi is connected to a monitor, keyboard, and mouse, and from that Pi I can establish SSH connections with the other three.</p>
+            <h3><img src='caret.svg' class='caret'>other equipment</h3>
+            <div class='text-box'>
+                <p>All four of the Raspberry Pis are plugged into a Ubiquiti switch.</p>
+                <p>Usually just one Pi is connected to a monitor, keyboard, and mouse, and from that Pi I can establish SSH connections with the other three.</p>
+            </div>
         </main>
 
         <footer>
-            <p>Contact information will go here.</p>
+            <p><strong>footer.</strong> css needs to be fixed.</p>
         </footer>
     </body>
 </html>
