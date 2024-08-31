@@ -19,6 +19,7 @@
             <h2>introduction</h2>
             <p>Hi, I'm Jeremy. I'm an IT person with an interest in networking.</p>
             <p>To get some hands-on experience building, configuring, and maintaining a network, I'm building a small, inexpensive homelab.</p>
+            <p>I'm learning as I go, so I also built this webpage to document the process.</p>
             <p>Currently the lab consists of four Raspberry Pis and a switch. Each Pi serves a different function in the LAN.</p>
 
             <h2>equipment</h2>
@@ -51,6 +52,15 @@
             <div class='text-box'>
                 <p>All four of the Raspberry Pis are plugged into a Ubiquiti switch.</p>
                 <p>Usually just one Pi is connected to a monitor, keyboard, and mouse, and from that Pi I can establish SSH connections with the other three.</p>
+            </div>
+
+            <h2>step-by-step</h2>
+            <div class='step'>
+                <p>This project uses four Raspberry Pi 4 Model Bs, one with 8 GB of RAM and the other three with 1 GB. The first step was the "create boot media???" for them, then configure their host names and static IP addresses, and document their MAC addresses.</p>
+            </div>
+
+            <div class='step'>
+                <p>The next step was to install and configure dnsmasq on jeremy03, and edit the host file on jeremy03. Then I tested the configuration by connecting to each of the other Pis from jeremy03 via SSH. Because it's only practical to have one Pi connected to monitor, keyboard, and mouse at a time, I wanted to be able to SSH from any Pi into any other Pi. I might change this later.</p>
             </div>
         </main>
 

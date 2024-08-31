@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(25, 25, 25);
     margin: 0;
     padding: 0;
 }
@@ -52,9 +52,10 @@ h2 {
 h3 {
     background-color: rgb(220, 20, 20);
     color: white;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     padding: 6px 0 6px 18px;
     font-size: 1em;
+    cursor: pointer;
 }
 
 p {
@@ -72,4 +73,22 @@ p {
 .text-box {
     padding: 0 0 10px 0;
     display: none;
+}
+
+.step {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 2px;
+}
+
+.step p {
+    padding: 6px 18px;
+    line-height: 1.8;
+}
+
+.number {
+    font-family: 'Pirata One';
+    font-size: 20px;
+    font-weight: bold;
 }
